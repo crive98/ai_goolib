@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai_goolib"
+version = "0.1.1"
+authors = [
+    { name="Luca Crivellari", email="crivemi.98@gmail.com" },
+]
+description = "Simple interface to use Google AI products"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "vertexai",
+    "json",
+    "base64",
+    "networkx",
+]
+
+[project.urls]
+Homepage = "https://github.com/crive98/ai_goolib"
+Issues = "https://github.com/crive98/ai_goolib/issues"
